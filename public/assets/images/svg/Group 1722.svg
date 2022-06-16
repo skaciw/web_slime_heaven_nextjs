@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1480" height="921.045" viewBox="0 0 1480 921.045">
+  <defs>
+    <pattern id="pattern" width="1" height="1" viewBox="16.287 0 1163.713 829.972">
+      <image preserveAspectRatio="none" width="1180" height="841.589" xlink:href="Group%201722-image.png"/>
+    </pattern>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_133" data-name="Rectangle 133" width="1012" height="634" transform="translate(458 1421)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <pattern id="pattern-2" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 1920 1080">
+      <image width="1920" height="1080" xlink:href="Group%201722-image3.jpg"/>
+    </pattern>
+    <pattern id="pattern-3" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 1920 1080">
+      <image width="1920" height="1080" xlink:href="Group%201722-image4.jpg"/>
+    </pattern>
+    <pattern id="pattern-4" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 1920 1080">
+      <image width="1920" height="1080" xlink:href="Group%201722-image5.jpg"/>
+    </pattern>
+    <pattern id="pattern-5" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 1920 1080">
+      <image width="1920" height="1080" xlink:href="Group%201722-image7.jpg"/>
+    </pattern>
+    <image id="image" width="144" height="81" xlink:href="Group%201722-image6.jpg"/>
+    <image id="image-2" width="144" height="81" xlink:href="Group%201722-image8.jpg"/>
+  </defs>
+  <g id="Group_1722" data-name="Group 1722" transform="translate(57 -1197.955)">
+    <rect id="Layer_40" data-name="Layer 40" width="1180" height="841.589" transform="translate(243 1197.955)" fill="url(#pattern)"/>
+    <image id="Rmain" width="349" height="378" transform="translate(-57 1741)" xlink:href="Group%201722-image2.png"/>
+    <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(-127 -62)" clip-path="url(#clip-path)">
+      <g id="Component_5_1" data-name="Component 5 – 1" transform="translate(500 1421)">
+        <rect id="Battle_Screen" data-name="Battle Screen" width="920" height="518" fill="url(#pattern-2)"/>
+        <rect id="Parts_" data-name="Parts " width="145" height="81" transform="translate(310 530)" fill="url(#pattern-3)" style="mix-blend-mode: luminosity;isolation: isolate"/>
+        <rect id="Pedigree_pop_up_children" data-name="Pedigree pop up children" width="145" height="81" transform="translate(465 530)" fill="url(#pattern-4)" style="mix-blend-mode: luminosity;isolation: isolate"/>
+        <use id="Pedigree_pop_up_parents" data-name="Pedigree pop up parents" transform="translate(621 530)" xlink:href="#image" style="mix-blend-mode: luminosity;isolation: isolate"/>
+        <rect id="Pedigree" width="145" height="81" transform="translate(775 530)" fill="url(#pattern-5)" style="mix-blend-mode: luminosity;isolation: isolate"/>
+        <rect id="Battle_Screen-2" data-name="Battle Screen" width="145" height="81" transform="translate(0 530)" fill="url(#pattern-2)"/>
+        <use id="My_slimes" data-name="My slimes" transform="translate(155 530)" xlink:href="#image-2" style="mix-blend-mode: luminosity;isolation: isolate"/>
+        <image id="Parts_2" data-name="Parts " width="920.889" height="518" transform="translate(2798)" xlink:href="Group%201722-image4.jpg"/>
+        <image id="Pedigree_pop_up_children-2" data-name="Pedigree pop up children" width="920.889" height="518" transform="translate(3987)" xlink:href="Group%201722-image5.jpg"/>
+        <use id="Pedigree_pop_up_parents-2" data-name="Pedigree pop up parents" transform="translate(5088) scale(6.395 6.395)" xlink:href="#image"/>
+        <image id="Pedigree-2" data-name="Pedigree" width="920.889" height="518" transform="translate(6189)" xlink:href="Group%201722-image7.jpg"/>
+        <use id="My_slimes-2" data-name="My slimes" transform="translate(1609) scale(6.395 6.395)" xlink:href="#image-2"/>
+      </g>
+    </g>
+    <image id="Image_2" data-name="Image 2" width="570" height="83" transform="translate(548 1208)" xlink:href="Group%201722-image9.png"/>
+  </g>
+</svg>

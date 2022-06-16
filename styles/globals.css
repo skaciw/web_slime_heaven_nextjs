@@ -1,16 +1,242 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "Catatan Perjalanan"; 
+  src: url("//db.onlinewebfonts.com/t/f1a64f7853a8be7de3859487034059f9.eot"); 
+  src: url("//db.onlinewebfonts.com/t/f1a64f7853a8be7de3859487034059f9.eot?#iefix") 
+  format("embedded-opentype"), 
+  url("//db.onlinewebfonts.com/t/f1a64f7853a8be7de3859487034059f9.woff2") 
+  format("woff2"), url("//db.onlinewebfonts.com/t/f1a64f7853a8be7de3859487034059f9.woff") 
+  format("woff"), url("//db.onlinewebfonts.com/t/f1a64f7853a8be7de3859487034059f9.ttf") 
+  format("truetype"), url("//db.onlinewebfonts.com/t/f1a64f7853a8be7de3859487034059f9.svg#Catatan Perjalanan") format("svg"); }
+
+body{
+  background-color: #292233;
+  
+  /* font-family: 'Catatan Perjalanan'; */
+}
+.font-cp{
+  font-family: 'Catatan Perjalanan';
+}
+.font-poppins{
+  font-family: 'Poppins', sans-serif;
+}
+.btn-footer{
+  color: white;
+  font-size: 1.3rem;  
+  height: 2.625rem;
+  width: 2.625rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1pt solid white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 1rem;
+}
+.btn-footer:hover{
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(255, 255, 255, .4);
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.bg-home{
+  background: url(../public/assets//images/bg-home.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 80vh;
+}
+.bg-footer{
+  background: url(../public/assets/images/footer-bg.png);
+  background-size: cover;
+}
+.bg-flabed{
+  background: url(../public/assets/images//bg-fabled.png);
+  background-size: cover;
+  background-position: center;
+}
+.bg-about{
+  background: url(../public/assets/images/bg-about.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  /* background-repeat: no-repeat; */
+}
+.title-text{
+  line-height: 1 !important;
+  font-size: 2.875rem;
+ 
+}
+.color-title{
+  color: #AAD263;
+}
+.desc-text{
+  font-size: 1.275rem;
+  color: #66789A;
 }
 
-* {
-  box-sizing: border-box;
+.color-title002{
+  color: #66789A;
+}
+.color-title003{
+  color: #ADADAA;
+}
+.border-style{
+  background-color: #FBF9F0;
+  border-radius: 25px;
+  border: 2pt solid #B1AB90;
+}
+
+.grid-custom-col{
+  grid-template-columns: 1fr 50px 1fr;
+}
+
+
+
+.style_navbarWrapper{
+  z-index: 2;
+  position: fixed;
+  max-width: 100vw;
+  width: 100%;
+  top: 0;
+}
+
+.style_navbar{
+  /* background-color: ; */
+  background-image: url(../public/assets/images/bg-navbar.png);
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  -moz-background-size: cover;
+  /* background-size: cover; */
+  /* -moz-background-size: 1440px 100%; */
+  background-size: cover;
+  /* max-width: 1840px; */
+  margin: 0 auto;
+  height: 100%;
+  /* height: 64px; */
+}
+
+.style_sosmed{
+  cursor: pointer;
+  top: 0;
+  position: absolute;
+  right: 0;
+}
+
+.logo_navbar{
+  width: 226px; 
+  /* height: 48px */
+}
+
+.logo_sosmed{
+  width:256px;
+}
+
+@media screen and (max-width: 640px) {
+  .grid-custom-col{
+    grid-template-columns: repeat(1,1fr);
+  }
+  .logo_navbar{
+    width: 166px; 
+    /* height: 48px */
+  }
+  
+  .logo_sosmed{
+    width:186px;
+  }
+  /* .img_creoverse{
+    height: 300px
+  } */
+ 
+}
+@media screen and (max-width: 768px) {
+ 
+  .logo_navbar{
+    width: 176px; 
+    /* height: 48px */
+  }
+  
+  .logo_sosmed{
+    width:176px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .logo_navbar{
+    width: 136px; 
+    /* height: 48px */
+  }
+  
+  .logo_sosmed{
+    width:156px;
+  }
+  .title-text{
+    font-size: 2.575rem;
+  }
+
+  .desc-text{
+    font-size: 0.975rem;
+  }
+}
+@media screen and (min-width:768px) {
+  .slime_mobile{
+    display: none;
+  }
+  .slime_desktop{
+    display: block;
+  }
+}
+@media screen and (max-width:768px) {
+  .slime_mobile{
+    display: block;
+  }
+  .slime_desktop{
+    display: none;
+  }
+  .bg-home{
+    height: 70vh;
+  }
+  .bg-ss{
+    /* height: 50vh; */
+  }
+}
+@media screen and (max-width: 325px) {
+  .logo_navbar{
+    width: 106px; 
+    /* height: 48px */
+  }
+  
+  .logo_sosmed{
+    width:136px;
+  }
+  .title-text{
+    font-size: 2.075rem;
+    
+  }
+
+  .desc-text{
+    font-size: 0.975rem;
+  }
+
+  .border-style{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.btn_slime{
+  mix-blend-mode: luminosity;
+  isolation: isolate;
+}
+
+.btn_slime.selected{
+  mix-blend-mode: normal;
+  isolation: auto;
 }
