@@ -234,6 +234,7 @@ body{
 .btn_slime{
   mix-blend-mode: luminosity;
   isolation: isolate;
+  cursor: pointer;
 }
 
 .btn_slime.selected{

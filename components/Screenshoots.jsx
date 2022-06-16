@@ -54,7 +54,7 @@ export const Screenshoots = () =>{
                     <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(-127 -62)" >
                         <g id="Component_5_1" data-name="Component 5 – 1" transform="translate(500 1421)">
                             <image id="battle_screen" data-name="battle_screen" width="920" height="518" xlinkHref={url[index]}/>
-                            <rect className="btn_slime" onClick={handleClick} id="0" data-name="btn_slime_1" width="145" height="81" transform="translate(0 530)" fill="url(#pattern-ss-2)"/>
+                            <rect className="btn_slime selected" onClick={handleClick} id="0" data-name="btn_slime_1" width="145" height="81" transform="translate(0 530)" fill="url(#pattern-ss-2)"/>
                             <use className="btn_slime" onClick={handleClick} id="1" data-name="btn_slime_2" transform="translate(155 530)" xlinkHref="#image-ss-3-2" />
                             <rect className="btn_slime" onClick={handleClick} id="2" data-name="btn_slime_3" width="145" height="81" transform="translate(310 530)" fill="url(#pattern-ss-3)" />
                             <rect className="btn_slime" onClick={handleClick} id="3" data-name="btn_slime_4" width="145" height="81" transform="translate(465 530)" fill="url(#pattern-ss-4)"/>

@@ -148,8 +148,10 @@ export default function Home() {
           </div>
         </div>
 
-        <div className='text-center font-cp'>
-        <h1 className='title-text py-4  color-title '>CreoPlay Cross Interoperability!</h1>
+        <div className='text-center font-cp flex flex-col justify-center items-center'>
+          <h1 className='title-text py-4  color-title '>CreoPlay Cross Interoperability!</h1>
+          <img className='pb-4' src='/assets/images/creoplay.png' alt=''/>
+
           {/* <h1 className='title-text py-4  color-title font-cp'>Creoverse Cross Interoperability!</h1> */}
           <span className='desc-text flex justify-center items-center flex-col'>
             <p className='w-full sm:w-3/5 font-poppins px-8 sm:px-0'>Your slimes can be used within Evermore Knights as assistants in battle! Your slimes aren’t just lovely pets, but they’re travellers in-between worlds of all shapes and sizes! The Creoverse opens a 
