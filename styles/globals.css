@@ -4,7 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @font-face {
   font-family: "Catatan Perjalanan"; 
   src: url("//db.onlinewebfonts.com/t/f1a64f7853a8be7de3859487034059f9.eot"); 
@@ -15,9 +14,11 @@
   format("woff"), url("//db.onlinewebfonts.com/t/f1a64f7853a8be7de3859487034059f9.ttf") 
   format("truetype"), url("//db.onlinewebfonts.com/t/f1a64f7853a8be7de3859487034059f9.svg#Catatan Perjalanan") format("svg"); }
 
+html{
+  scroll-behavior: smooth;
+}
 body{
   background-color: #292233;
-  
   /* font-family: 'Catatan Perjalanan'; */
 }
 .font-cp{
@@ -50,7 +51,7 @@ body{
   background: url(../public/assets//images/bg-home.png);
   background-size: cover;
   background-position: center;
-  min-height: 80vh;
+  /* min-height: 70vh; */
 }
 .bg-footer{
   background: url(../public/assets/images/footer-bg.png);
@@ -167,13 +168,20 @@ body{
     width:176px;
   }
 }
-
+@media screen and (max-width:525px) {
+  .border-style{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
 @media screen and (max-width: 425px) {
   .logo_navbar{
     width: 136px; 
-    /* height: 48px */
   }
-  
+  .border-style{
+    margin-left: auto;
+    margin-right: auto;
+  }
   .logo_sosmed{
     width:156px;
   }
@@ -202,9 +210,6 @@ body{
   }
   .bg-home{
     height: 70vh;
-  }
-  .bg-ss{
-    /* height: 50vh; */
   }
 }
 @media screen and (max-width: 325px) {
@@ -240,4 +245,19 @@ body{
 .btn_slime.selected{
   mix-blend-mode: normal;
   isolation: auto;
+}
+
+.glowing-png {
+  -webkit-animation: glowing 1.5s ease-in-out infinite alternate;
+  -moz-animation: glowing 1.5s ease-in-out infinite alternate;
+  animation: glowing 1.5s ease-in-out infinite alternate;
+}
+@keyframes glowing {
+  from {
+    filter: drop-shadow(0 0 0.75rem rgba(255, 255, 153,0.5));
+    /* box-shadow:  */
+  }
+  to {
+    filter: drop-shadow(0 0 1.5rem rgba(255, 255, 153,0.8));
+  }
 }

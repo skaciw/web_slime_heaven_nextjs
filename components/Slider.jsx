@@ -33,11 +33,11 @@ export const Slider= ({list,id})=> {
                 {list.map(slide=>(
                     id===1?
                     <SwiperSlide  key={slide}>
-                        <img src={slide}/>
+                        <img src={slide} alt="slider images"/>
                     </SwiperSlide>:
                     <SwiperSlide key={slide.url}>
                         <div className="flex flex-col justify-center  px-0.5">
-                            <img className="border-4 border-white" src={slide.url}/>
+                            <img className="border-4 border-white" src={slide.url} alt="slider images"/>
                             <h2 className="pb-4 font-bold text-base sm:text-xl color-title font-poppins">{slide.title}</h2>
                         </div>
                     </SwiperSlide>

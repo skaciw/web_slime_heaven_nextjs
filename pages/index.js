@@ -69,17 +69,32 @@ export default function Home() {
               </div>
             </div> */}
 
-            <div className='font-poppins text-2xl p-8'>
-              {/* <span className='text-white text-6xl font-bold -mb-6 flex'>“</span> */}
+            {/* <div className='font-poppins text-2xl p-8'>
+              <span className='text-white text-6xl font-bold -mb-6 flex'>“</span>
               <div className='text-white pr-8 '>
                 <span className='color-title font-bold pr-3'><span className='text-white text-6xl font-bold'>“</span>SLIME HEAVEN</span> 
                 is a free to play pet raising simulator with
               </div>
-              {/* <span className='text-white text-6xl font-bold -mt-6 flex justify-end'>“</span> */}
+              <span className='text-white text-6xl font-bold -mt-6 flex justify-end'>“</span>
               <div className='text-white pl-0 sm:pl-8 flex'><div>adorable colourful slimes for you to
                 <span className='color-title font-bold pl-3'>BREED AND BOND WITH!</span><span className='text-white text-6xl font-bold pl-12 sm:p-0'>“</span></div>
               </div>
+            </div> */}
+
+            <div className='font-poppins text-2xl p-8 flex mb-12'>
+              <span className='text-white text-6xl font-bold -mt-4 flex'>“</span>
+              <div>
+                <div className='text-white pr-8 '>
+                  <span className='color-title font-bold pr-3'>SLIME HEAVEN</span> 
+                  is a free to play pet raising simulator with
+                </div>
+                <div className='text-white pl-0 sm:pl-8 flex'><div>adorable colourful slimes for you to
+                  <span className='color-title font-bold pl-3'>BREED AND BOND WITH!</span></div>
+                </div>
+              </div>
+              <span className='text-white text-6xl font-bold  flex justify-end items-end'>“</span>
             </div>
+
           </div>
           <div className='absolute right-0 sm:right-6 bottom-0'>
             <img className='' src='/assets/images/slime-bone.png' alt=''/>
@@ -90,11 +105,14 @@ export default function Home() {
         <div className='flex justify-center items-center flex-col'>
           <h1 className='title-text py-4 color-title font-cp text-center'>PLAY TO EARN</h1>
 
-          <div className='py-8 px-4 md:p-8 w-5/6'>
+          <div className='py-8 px-4 mb-8 md:p-8 w-5/6'>
             <div className='grid grid-custom-col mx-auto container gap-8'>
 
               <div className='grid justify-items-end items-center'>
-                <img src='/assets/images/LOCA.png' alt=''/>
+                
+                <img className='glowing-png' src='/assets/images/LOCA.png' alt=''/>
+                
+                
                 <div className='text-right'>
                   <h1 className='title-text color-title font-cp '>LOVE CAKE (LOCA)</h1>
                   <span className='desc-text flex justify-center items-center flex-col'>
@@ -110,7 +128,7 @@ export default function Home() {
               </div>
 
               <div className=''>
-                <img src='/assets/images/CREO_1.png' alt=''/>
+                <img className='glowing-png' src='/assets/images/CREO_1.png' alt=''/>
                 <div className='text-left'>
                   <h1 className='title-text color-title font-cp '>Creo Engine (CREO)</h1>
                   <span className='desc-text flex justify-center items-center flex-col'>
@@ -126,8 +144,8 @@ export default function Home() {
         </div>
 
         <div>
-          <h1 className='title-text color-title font-cp text-center'>Rogue Turn Based Strategy!</h1>
-          <img src='/assets/images/bg-rogue.png' alt=''/>
+          <h1 className='title-text py-4 color-title font-cp text-center'>Rogue Turn Based Strategy!</h1>
+          <img className='mb-8' src='/assets/images/bg-rogue.png' alt=''/>
         </div>
 
         <SkillCard/>
@@ -137,7 +155,17 @@ export default function Home() {
         <div className='bg-flabed'>
           <div className='py-2 md:py-12 container mx-auto flex flex-wrap justify-center items-center'>
             <div className='w-full md:w-1/2'>
-              <img className='p-12' src='/assets/images/fabled-slime.png' alt=''/>
+              {/* <img className='p-12' src='/assets/images/fabled-slime.png' alt=''/> */}
+              <svg className='pt-12 pl-8' xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"  viewBox="0 0 871 886">
+                <g id="Group_1152" data-name="Group 1152" transform="translate(-220.079 -7802.875)">
+                  <image  id="randomslimes_006" width="615" height="615" transform="translate(301.079 7802.875)" xlinkHref="/assets/images/randomslimes_006.png"/>
+                  <image className='glowing-png' id="egg_earth" width="152" height="152" transform="translate(250.079 8435.875)" xlinkHref="/assets/images/egg_earth.png"/>
+                  <image className='glowing-png' id="egg_dark" width="153" height="153" transform="translate(404.079 8435.875)" xlinkHref="/assets/images/egg_dark.png"/>
+                  <image className='glowing-png' id="egg_thunder" width="153" height="152" transform="translate(559.079 8435.875)" xlinkHref='/assets/images/egg_thunder.png'/>
+                  <image className='glowing-png' id="egg_nature" width="153" height="153" transform="translate(714.079 8435.875)" xlinkHref="/assets/images/egg_nature.png"/>
+                  <image className='glowing-png' id="egg_water_1_" data-name="egg_water(1)" width="152" height="152" transform="translate(869.079 8435.875)" xlinkHref="/assets/images/egg_water.png"/>
+                </g>
+              </svg>
             </div>
             <div className='w-full md:w-1/2'>
               <div className='text-center'>
@@ -158,7 +186,7 @@ export default function Home() {
             lot of possibilities for you and your adorable little friends!</p>
           </span>
         </div>
-        <img  src='/assets/images/bg-creoverse.png' alt=''/>
+        <img className='mb-8'  src='/assets/images/bg-creoverse.png' alt=''/>
 
         <div className='text-center font-cp'>
           <h1 className='title-text py-4  color-title '>Get your first SLIME and start fighting!</h1>

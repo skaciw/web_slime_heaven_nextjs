@@ -62,7 +62,7 @@ export const Screenshoots = () =>{
                             <rect className="btn_slime" onClick={handleClick} id="5" data-name="btn_slime_6" width="145" height="81" transform="translate(775 530)" fill="url(#pattern-ss-5)" />
                         </g>
                     </g>
-                    <image id="Image_2" data-name="Image 2" width="570" height="83" transform="translate(548 1208)" xlinkHref="/assets/images/Group%201722-image9.png"/>
+                    <image id="Image_2" data-name="Image 2" width="570" height="83" transform="translate(548 1208)" xlinkHref="/assets/images/screenshoot.png"/>
                 </g>
             </svg> 
         </div>
