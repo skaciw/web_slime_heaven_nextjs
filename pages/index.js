@@ -85,7 +85,7 @@ export default function Home() {
               <span className='text-white text-6xl font-bold -mt-4 flex'>“</span>
               <div>
                 <div className='text-white pr-8 '>
-                  <span className='color-title font-bold pr-3'>SLIME HEAVEN</span> 
+                  <span className='color-title font-bold pr-3'>SLIME HAVEN</span> 
                   is a free to play pet raising simulator with
                 </div>
                 <div className='text-white pl-0 sm:pl-8 flex'><div>adorable colourful slimes for you to
@@ -199,11 +199,11 @@ export default function Home() {
         <Slider list={listSlime} id={1}/>
 
         {/* partner */}
-        <div className='grid grid-cols-2 sm:grid-cols-4 justify-items-center'>
+        <div className='grid grid-cols-3 sm:grid-cols-3 justify-items-center'>
           <img src='/assets/images/nomina.png' alt=""/>
           <img src='/assets/images/muse.png' alt=""/>
           <img src='/assets/images/creo.png' alt=""/>
-          <img src='/assets/images/polygon.png' alt=""/>
+          {/* <img src='/assets/images/polygon.png' alt=""/> */}
         </div>
       </main>
 
