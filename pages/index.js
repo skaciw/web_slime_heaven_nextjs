@@ -223,7 +223,7 @@ export default function Home() {
             
               <div className="w-full px-4 mt-7 lg:w-1/3 md:w-1/3 text-center flex justify-center items-center">
                 <div className="grid grid-cols-3 gap-8">
-                  <a href="https://www.instagram.com/evermoreknights.official/" rel="noreferrer" target="_blank" className="btn-footer">
+                  <a href="https://www.instagram.com/creoengine.official/" rel="noreferrer" target="_blank" className="btn-footer">
                     <i className="fa-brands fa-instagram fa-lg"></i></a>
                   
                   <a href="https://discord.gg/creoengine" target="_blank" rel="noreferrer" className="btn-footer">
