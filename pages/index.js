@@ -226,7 +226,7 @@ export default function Home() {
                   <a href="https://www.instagram.com/creoengine.official/" rel="noreferrer" target="_blank" className="btn-footer">
                     <i className="fa-brands fa-instagram fa-lg"></i></a>
                   
-                  <a href="https://discord.gg/creoengine" target="_blank" rel="noreferrer" className="btn-footer">
+                  <a href="https://discord.gg/slimehaven" target="_blank" rel="noreferrer" className="btn-footer">
                     <i className="fa-brands fa-discord"></i></a>
 
                   <a href="https://t.me/CreoEngineChannel" target="_blank" rel="noreferrer" className="btn-footer">
