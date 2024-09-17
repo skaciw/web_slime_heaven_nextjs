@@ -118,10 +118,10 @@ export const Landing = () => {
 
     const whitepaper_btn = {
         rest:{
-            transform: 'translate(1546px ,824.359px) rotate(0deg)',
+            transform: 'translate(1640px ,700px) rotate(0deg)',
         },
         hover:{
-            transform: "translate(1546px ,824.359px) rotate(-5deg)",
+            transform: "translate(1640px ,700px) rotate(-5deg)",
             transition:{
                 type: "spring",
                 duration: 0.8,
@@ -130,12 +130,12 @@ export const Landing = () => {
         }
     }
 
-    const play_btn = {
+    const appstore_btn = {
         rest:{
-            transform: 'translate(1642.388px, 930.404px) rotate(0deg)',
+            transform: 'translate(1580px, 820px) rotate(0deg)',
         },
         hover:{
-            transform: "translate(1642.388px, 930.404px) rotate(5deg)",
+            transform: "translate(1580px, 820px) rotate(5deg)",
             transition:{
                 type: "spring",
                 duration: 0.8,
@@ -143,6 +143,21 @@ export const Landing = () => {
             }
         }
     }
+    
+
+    const playstore_btn = {
+      rest:{
+          transform: 'translate(1520px, 940px) rotate(0deg)',
+      },
+      hover:{
+          transform: "translate(1520px, 940px) rotate(-5deg)",
+          transition:{
+              type: "spring",
+              duration: 0.8,
+              ease: "easeIn",
+          }
+      }
+  }
 
     return(
         <div className='sm:p-16 w-full'>
@@ -214,8 +229,8 @@ export const Landing = () => {
                         <image id="Layer_46-2" data-name="Layer 46" width="642" height="375" transform="translate(283 227)" xlinkHref="/assets/images/slime_logo.png"/>
                     </g>
                     </g>
-                    <a href="https://drive.google.com/file/d/1J1C6zQBBTxldjzYfRySGRXcfpmLh_mQz/view?usp=sharing" target="_blank" rel="noreferrer">
-                        <g id="Component_21_1" data-name="Component 21 – 1" transform="translate(535.194 1051.693)">
+                    <a href="https://drive.google.com/file/d/1J1C6zQBBTxldjzYfRySGRXcfpmLh_mQz/view?usp=sharing" target="_blank" rel="noreferrer" id="btn-whitepaper-mobile">
+                        <g id="Component_21_1" data-name="Component 21 – 1" transform="translate(415.194 1051.693)">
                             <g id="Group_1720" data-name="Group 1720">
                                 <g id="Group_1139" data-name="Group 1139" transform="translate(0 0)">
                                 <path id="Path_2088" data-name="Path 2088" d="M3408.075,3253.147c41.013-.9,211.874-1.444,248.957.14a4.156,4.156,0,0,0,2.585-.378c.62-.5.57-1.434.583-2.16.043-2.391.208-5.134.094-7.043l-8.2-.625,8.072-1.634q-1.128-19.581-1.549-39.386l-4.377-1.3,4.328-1.234c-.342-18.779,1.26-6.262,2.037-24.99a64.061,64.061,0,0,0-7.648-12.308,2.806,2.806,0,0,0-2.438-1.168c-16.386,1.257-230.994,2.637-260.54,1.377a2.744,2.744,0,0,0-2.928,2.517c-.156,5.512.551,9.093.772,14.343l3.179,1.718-1.43,1.607.261,1.238-1.792,1.073c.682,19.546.609,8.959-.21,28.353l2.4,1.069-1.2,1.882,3.391,1.471-4.84,1.054c-.385,7.764-1.78,15.6-1.845,23.159,4.9,4.4,14.68,9.07,22.344,11.228Z" transform="translate(-3383.588 -3161.051)" fillRule="evenodd" fill="url(#radial-gradient)" style={{isolation:"isolate",mixBlendMode:"multiply"}}/>
@@ -236,9 +251,49 @@ export const Landing = () => {
                             <text id="WHITE_PAPER" data-name="WHITE PAPER" transform="translate(231.441 52.293)" fill="#572b0c" fontSize="29" fontFamily="CatatanPerjalanan, Catatan Perjalanan"><tspan x="-128.151" y="0">WHITE PAPER</tspan></text>
                         </g>
                     </a>
+
+                    <a href="https://play.google.com/store/apps/details?id=com.Nomina.SlimeHaven&pcampaignid=web_share" target="_blank" rel="noreferrer" id="btn-playstore-mobile">
+                        <g id="Component_22_1" data-name="Component 212 – 1" transform="translate(795.194 1051.693)">
+                            <g id="Group_1720" data-name="Group 1720">
+                                <g id="Group_1139" data-name="Group 1139" transform="translate(0 0)">
+                                <path id="Path_2088" data-name="Path 2088" d="M3408.075,3253.147c41.013-.9,211.874-1.444,248.957.14a4.156,4.156,0,0,0,2.585-.378c.62-.5.57-1.434.583-2.16.043-2.391.208-5.134.094-7.043l-8.2-.625,8.072-1.634q-1.128-19.581-1.549-39.386l-4.377-1.3,4.328-1.234c-.342-18.779,1.26-6.262,2.037-24.99a64.061,64.061,0,0,0-7.648-12.308,2.806,2.806,0,0,0-2.438-1.168c-16.386,1.257-230.994,2.637-260.54,1.377a2.744,2.744,0,0,0-2.928,2.517c-.156,5.512.551,9.093.772,14.343l3.179,1.718-1.43,1.607.261,1.238-1.792,1.073c.682,19.546.609,8.959-.21,28.353l2.4,1.069-1.2,1.882,3.391,1.471-4.84,1.054c-.385,7.764-1.78,15.6-1.845,23.159,4.9,4.4,14.68,9.07,22.344,11.228Z" transform="translate(-3383.588 -3161.051)" fillRule="evenodd" fill="url(#radial-gradient)" style={{isolation:"isolate",mixBlendMode:"multiply"}}/>
+                                <g id="Group_1138" data-name="Group 1138" transform="translate(0 1.494)">
+                                    <path id="Path_2089" data-name="Path 2089" d="M3402.458,3254.7c6.1,1.258,231.533.633,255-.751q-.275-3.841-.522-7.694l-8.4-.6,8.267-1.559q-1.154-18.675-1.587-37.563l-4.483-1.241,4.433-1.177c-.349-17.909-.168-5.821.627-23.682l-10.679-12.774c-1.468-.535-242.347.483-266.392,1.249q.615,8.663,1,17.306l3.256,1.638-1.465,1.532.268,1.181-1.835,1.023c.7,18.642.624,7.153-.215,25.649l2.455,1.019-1.228,1.8,3.473,1.4-4.958,1q-.611,11.509-1.617,22.98v.014l24.6,9.242Z" transform="translate(-3377.846 -3167.514)" fillRule="evenodd" fill="url(#linear-gradient)"/>
+                                    <path id="Path_2090" data-name="Path 2090" d="M3402.412,3492.981l-24.6-9.241c.766-1.006,8.433-6.187,9.481-6.279,1.01-.089,12.569,13.617,15.118,15.52Z" transform="translate(-3377.813 -3405.8)" fillRule="evenodd" fill="url(#radial-gradient-2)" style={{isolation:"isolate",mixBlendMode:"multiply"}}/>
+                                    <path id="Path_2091" data-name="Path 2091" d="M4368.639,3180.934c-2.457-1-12.947-2.461-13.432-3.377-.382-.721,2.193-6.866,2.753-9.4l10.679,12.775Z" transform="translate(-4090.695 -3168.01)" fillRule="evenodd" fill="url(#radial-gradient-3)" style={{isolation:"isolate",mixBlendMode:"multiply"}}/>
+                                    <path id="Path_2092" data-name="Path 2092" d="M3385.831,3486.84a194.4,194.4,0,0,0,16.594,13.357c-1.812,0-24.612-7.719-24.612-9.246a47.442,47.442,0,0,1,8.018-4.111Z" transform="translate(-3377.813 -3413.01)" fillRule="evenodd" fill="url(#linear-gradient-2)"/>
+                                    <path id="Path_2093" data-name="Path 2093" d="M4371.292,3180.934c-4.209-1.615-8.438-3.2-12.486-5.087a65.149,65.149,0,0,0,1.807-7.688c1.04,0,10.68,11.821,10.68,12.775Z" transform="translate(-4093.348 -3168.01)" fillRule="evenodd" fill="url(#linear-gradient-3)"/>
+                                    <path id="Path_2094" data-name="Path 2094" d="M3406.226,3498.268c-1.415-4.374-12.439-9.719-16.167-9.25a45,45,0,0,1,4.7-2.178,194.828,194.828,0,0,0,16.552,13.329l.042.029a33.8,33.8,0,0,1-5-1.353,3.1,3.1,0,0,0-.129-.575Z" transform="translate(-3386.745 -3413.01)" fillRule="evenodd" fill="url(#radial-gradient-4)" style={{isolation:"isolate",mixBlendMode:"screen"}}/>
+                                    <path id="Path_2095" data-name="Path 2095" d="M4360.472,3174.986c1.235,2.439,6.635,4.166,9.909,4.858.126.027.25.052.37.076a3.22,3.22,0,0,1,.541,1.014c-.1-.041-.215-.085-.342-.131-4.1-1.57-8.206-3.117-12.145-4.956a64.956,64.956,0,0,0,1.807-7.688.612.612,0,0,1,.285.129c-.02.047-.039.094-.058.143-.673,1.737-1.209,4.9-.368,6.555Z" transform="translate(-4093.348 -3168.01)" fillRule="evenodd" fill="url(#radial-gradient-5)" style={{isolation:"isolate",mixBlendMode:"screen"}}/>
+                                    <path id="Path_2096" data-name="Path 2096" d="M3415.944,3262.149c-2.914-.995-3.987-3.1-5.553-6.319-4.481-9.216-10.335-7.56-15.028-10.076-3.131-1.678-4.114-6.746,1.677-13.559,5.347-6.292-4.361-13.244-4.019-26.411.219-8.427,5.506,8.312,6.372,4.387.8-3.629,1.8-5.561-2.224-10.728-1.554-2,.193-2.922-3.613-7.98-1.993-2.65-1.361-4.527.593-5.891,11.526-8.043,40.946-2.914,53.95-1.861,5.925.479,10.209-2.751,19.972-1.95,17.455,1.432,14.759-5.871,39.86,2.942,16.389,5.755,96.062-3.668,109.974-2.667,6.988.5,9.349-.812,13.8-1.252,3.435-.34,7.029-.822,10-.061,6.155,1.575,3.249,6.795,8.556,9.993,7.631,4.6,15.939-1.821,12.158,11.575-1.9,6.732-4.137,14.56-.555,22.9,1.033,2.406,1.016-21.578-.15-19.356-4.656,8.872-8.959,7.494-2.779,12.562,5.04,4.134-2.055,7.53,1.578,12.16,3.516,4.48,1.846,8.834-2.055,17.99-.529,1.244,2.1,2.768-2.8,5.206-3.412,1.7,8.681,6.582-18.644,6.582-7.757,0-10.143,2.346-17.976,2.146-13.5-.346-98.23-3.608-114.937-2.341-10.907.828-16.352,2.182-28.008,1.756-6.922-.253-8.353,1.633-17.788-.73-14.324-3.588-29.39,5.416-42.369.986Z" transform="translate(-3388.407 -3177.321)" fillRule="evenodd" opacity="0.5" fill="url(#radial-gradient-6)" style={{isolation:"isolate",mixBlendMode:"screen"}}/>
+                                    <path id="Path_2097" data-name="Path 2097" d="M3413.509,3254.6c-3.76-2.895-5.562-5.1-2.975-13.159,3.847-11.975-3.69-15-4.516-22.457-1.06-9.562-.184,25.173,3.847,18.423,2.488-4.168-4.163-5.468,3.564-13.3,5.748-5.825,4.358-10.567-.88-15.9-4.24-4.317-4.731-10.236-.184-13.1,7.1-4.473,15.216.581,20.784.871,1.674.088,3.814-.253,7.333-1.417,4.011-1.326,14.123,3.584,22.038,3.584,9.681,0,19.985-4.711,33.985-4.711,14.6,0,18.673,10.575,31.267,6.135,1.4-.494,87.178,4.49,99.848-1.178,10.089-4.513,23.891-2.543,26.731,1.969.774,1.23,6.1.182,7.045,7.208.412,3.062,9.312,5.023,4.044,13.282-.966,1.515-1.636,10.259.092,12.877,1.979,3,1.971-20.34-.092-17.739-5.84,7.364,2.506,13.409-1.786,18.762-4.347,5.42-.63,9.74-.63,13.876,0,8.7-3.614,3.42-1.588,11.908,1.766,7.4-5.386,8.419-12.919,6.932-2.215-.437-4.1-.869-8.81,2.062-7.076,4.408-17.367,1.589-25.471-.5-11.259-2.905-95.57-2.757-107.314.2-7.973,2.01-21.069-5.032-34.291-1.006-11.545,3.516-16.622-4.126-25,.556-6.427,3.589-12.64,2.692-15.453.263-3.589-3.1.6.781-4.957-5.743-5.36-6.3-11.8-7.229-13.706-8.7Z" transform="translate(-3398.085 -3187.315)" fillRule="evenodd" opacity="0.5" fill="url(#radial-gradient-7)" style={{isolation:"isolate",mixBlendMode:"screen"}}/>
+                                </g>
+                                </g>
+                            </g>
+                            <text id="DOWNLOAD-APP-STORE-MOBILE-1" data-name="DOWNLOAD-APP-STORE-MOBILE-1" transform="translate(320.067 39.138)" fill="#572b0c" fontSize="29" fontFamily="CatatanPerjalanan, Catatan Perjalanan"><tspan x="-219.53" y="0">GET IT ON</tspan></text>
+                            <text id="DOWNLOAD-APP-STORE-MOBILE-1" data-name="DOWNLOAD-APP-STORE-MOBILE-1" transform="translate(320.067 67.138)" fill="#572b0c" fontSize="29" fontFamily="CatatanPerjalanan, Catatan Perjalanan"><tspan x="-219.53" y="0">PLAY STORE</tspan></text>
+                            <g fill="#572b0c" transform="scale(0.08) translate(500 300)">
+                          <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+                          <g
+                            id="SVGRepo_tracerCarrier"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            stroke="#CCCCCC"
+                            strokeWidth="13.312000000000001"
+                          ></g>
+                          <g id="SVGRepo_iconCarrier">
+                            <title>ionicons-v5_logos</title>
+                            <path d="M48,59.49v393a4.33,4.33,0,0,0,7.37,3.07L260,256,55.37,56.42A4.33,4.33,0,0,0,48,59.49Z"></path>
+                            <path d="M345.8,174,89.22,32.64l-.16-.09c-4.42-2.4-8.62,3.58-5,7.06L285.19,231.93Z"></path>
+                            <path d="M84.08,472.39c-3.64,3.48.56,9.46,5,7.06l.16-.09L345.8,338l-60.61-57.95Z"></path>
+                            <path d="M449.38,231l-71.65-39.46L310.36,256l67.37,64.43L449.38,281C468.87,270.23,468.87,241.77,449.38,231Z"></path>
+                          </g>
+                        </g>
+                        </g>
+                    </a>
                     
-                    <a href="https://drive.google.com/drive/folders/1kdh5hqSY8E0AjliXMmQ5IL_s3X3FX8eS?usp=sharing" target="_blank" rel="noreferrer" >
-                        <g id="Component_22_1" data-name="Component 22 – 1" transform="translate(1105.194 1051.693)">
+                    <a href="https://apps.apple.com/us/app/slime-haven/id6535673156 " target="_blank" rel="noreferrer" id="btn-appstore-mobile">
+                        <g id="Component_23_1" data-name="Component 23 – 1" transform="translate(1155.194 1051.693)">
                             <g id="Group_1721" data-name="Group 1721">
                                 <g id="Group_1139" data-name="Group 1139">
                                 <path id="Path_2088" data-name="Path 2088" d="M3411.491,3253.147c47.284-.9,244.269-1.444,287.022.14a5.447,5.447,0,0,0,2.981-.378c.715-.5.657-1.434.672-2.16.05-2.391.24-5.134.109-7.043l-9.458-.625,9.306-1.634q-1.3-19.581-1.786-39.386l-5.046-1.3,4.99-1.234c-.394-18.779,1.453-6.262,2.349-24.99a63.41,63.41,0,0,0-8.817-12.308,3.432,3.432,0,0,0-2.811-1.168c-18.891,1.257-266.313,2.637-300.376,1.377-1.849-.069-3.332,1.145-3.376,2.517-.179,5.512.635,9.093.89,14.343l3.665,1.718-1.649,1.607.3,1.238-2.066,1.073c.786,19.546.7,8.959-.242,28.353l2.764,1.069-1.383,1.882,3.91,1.471-5.58,1.054c-.444,7.764-2.052,15.6-2.128,23.159,5.644,4.4,16.925,9.07,25.76,11.228Z" transform="translate(-3383.588 -3161.051)" fillRule="evenodd" fill="url(#radial-gradient)" style={{mixBlendMode: "multiply",isolation:"isolate"}}/>
@@ -255,8 +310,20 @@ export const Landing = () => {
                                 </g>
                                 </g>
                             </g>
-                            <text id="DOWNLOAD_PRE-ALPHA" data-name="DOWNLOAD PRE-ALPHA" transform="translate(304.067 54.138)" fill="#572b0c" fontSize="29" fontFamily="CatatanPerjalanan, Catatan Perjalanan"><tspan x="-219.53" y="0">DOWNLOAD PRE-ALPHA</tspan></text>
-                            <path id="Icon_awesome-gamepad" data-name="Icon awesome-gamepad" d="M39.016,6.75H13.005a13.005,13.005,0,1,0,9.283,22.109h7.437A13,13,0,1,0,39.016,6.75ZM20.809,21.381a.978.978,0,0,1-.975.975H15.607v4.227a.978.978,0,0,1-.975.975H11.38a.978.978,0,0,1-.975-.975V22.357H6.178a.978.978,0,0,1-.975-.975V18.13a.978.978,0,0,1,.975-.975H10.4V12.928a.978.978,0,0,1,.975-.975h3.251a.978.978,0,0,1,.975.975v4.227h4.227a.978.978,0,0,1,.975.975Zm14.956,5.527a3.9,3.9,0,1,1,3.9-3.9A3.9,3.9,0,0,1,35.765,26.908Zm6.5-6.5a3.9,3.9,0,1,1,3.9-3.9A3.9,3.9,0,0,1,42.268,20.406Z" transform="translate(24.694 26.377)" fill="#572b0c"/>
+                            <text id="DOWNLOAD-APP-STORE-MOBILE-1" data-name="DOWNLOAD-APP-STORE-MOBILE-1" transform="translate(320.067 39.138)" fill="#572b0c" fontSize="29" fontFamily="CatatanPerjalanan, Catatan Perjalanan"><tspan x="-219.53" y="0">DOWNLOAD ON THE</tspan></text>
+                            <text id="DOWNLOAD-APP-STORE-MOBILE-1" data-name="DOWNLOAD-APP-STORE-MOBILE-1" transform="translate(320.067 67.138)" fill="#572b0c" fontSize="29" fontFamily="CatatanPerjalanan, Catatan Perjalanan"><tspan x="-219.53" y="0">APP STORE</tspan></text>
+                            <g fill="#572b0c"
+                          transform="scale(0.08) translate(500 300)">
+                          <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+                          <g
+                            id="SVGRepo_tracerCarrier"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          ></g>
+                          <g id="SVGRepo_iconCarrier" transform="translate(0 0)">
+                            <path d="M380.844 297.529c.787 84.752 74.349 112.955 75.164 113.314-.622 1.988-11.754 40.191-38.756 79.652-23.343 34.117-47.568 68.107-85.731 68.811-37.499.691-49.557-22.236-92.429-22.236-42.859 0-56.256 21.533-91.753 22.928-36.837 1.395-64.889-36.891-88.424-70.883-48.093-69.53-84.846-196.475-35.496-282.165 24.516-42.554 68.328-69.501 115.882-70.192 36.173-.69 70.315 24.336 92.429 24.336 22.1 0 63.59-30.096 107.208-25.676 18.26.76 69.517 7.376 102.429 55.552-2.652 1.644-61.159 35.704-60.523 106.559M310.369 89.418C329.926 65.745 343.089 32.79 339.498 0 311.308 1.133 277.22 18.785 257 42.445c-18.121 20.952-33.991 54.487-29.709 86.628 31.421 2.431 63.52-15.967 83.078-39.655"></path>
+                          </g>
+                        </g>
                         </g>
                     </a>
                 </g>
@@ -329,8 +396,8 @@ export const Landing = () => {
                     <motion.image variants={slime_logo} id="Layer_46-2" data-name="Layer 46" width="642" height="375" transform="translate(283 227)" xlinkHref="/assets/images/slime_logo.png"/>
                   </g>
                 </g>
-                <a href="https://drive.google.com/file/d/1J1C6zQBBTxldjzYfRySGRXcfpmLh_mQz/view?usp=sharing" target="_blank" rel="noreferrer">
-                    <motion.g style={{cursor: "pointer"}} variants={whitepaper_btn} initial="rest" animate="rest" whileHover="hover"  id="Component_21_1" data-name="Component 21 – 1" transform="translate(1546 824.359)">
+                <a href="https://drive.google.com/file/d/1J1C6zQBBTxldjzYfRySGRXcfpmLh_mQz/view?usp=sharing" target="_blank" rel="noreferrer" id="btn-whitepaper-dekstop">
+                    <motion.g style={{cursor: "pointer"}} variants={whitepaper_btn} initial="rest" animate="rest" whileHover="hover"  id="Component_21_1" data-name="Component 21 – 1" transform="translate(1640 ,700)">
                     <g id="Group_1720" data-name="Group 1720">
                         <g id="Group_1139" data-name="Group 1139" transform="translate(0 0)">
                         <path id="Path_2088" data-name="Path 2088" d="M3408.075,3253.147c41.013-.9,211.874-1.444,248.957.14a4.156,4.156,0,0,0,2.585-.378c.62-.5.57-1.434.583-2.16.043-2.391.208-5.134.094-7.043l-8.2-.625,8.072-1.634q-1.128-19.581-1.549-39.386l-4.377-1.3,4.328-1.234c-.342-18.779,1.26-6.262,2.037-24.99a64.061,64.061,0,0,0-7.648-12.308,2.806,2.806,0,0,0-2.438-1.168c-16.386,1.257-230.994,2.637-260.54,1.377a2.744,2.744,0,0,0-2.928,2.517c-.156,5.512.551,9.093.772,14.343l3.179,1.718-1.43,1.607.261,1.238-1.792,1.073c.682,19.546.609,8.959-.21,28.353l2.4,1.069-1.2,1.882,3.391,1.471-4.84,1.054c-.385,7.764-1.78,15.6-1.845,23.159,4.9,4.4,14.68,9.07,22.344,11.228Z" transform="translate(-3383.588 -3161.051)" fillRule="evenodd" fill="url(#radial-gradient)" style={{isolation:"isolate",mixBlendMode:"multiply"}} />
@@ -351,8 +418,8 @@ export const Landing = () => {
                     <text id="WHITE_PAPER" data-name="WHITE PAPER" transform="translate(231.441 52.293)" fill="#572b0c" fontSize="29" fontFamily="CatatanPerjalanan, Catatan Perjalanan"><tspan x="-128.151" y="0">WHITE PAPER</tspan></text>
                     </motion.g>
                 </a>
-                <a href="https://drive.google.com/drive/folders/1kdh5hqSY8E0AjliXMmQ5IL_s3X3FX8eS?usp=sharing" target="_blank" rel="noreferrer">
-                    <motion.g style={{cursor: "pointer"}} variants={play_btn} initial="rest" animate="rest" whileHover="hover" id="Component_22_1" data-name="Component 22 – 1" transform="translate(1642.388 930.404)">
+                <a href="https://apps.apple.com/us/app/slime-haven/id6535673156" target="_blank" rel="noreferrer" id="btn-appstore-dekstop">
+                    <motion.g style={{cursor: "pointer"}} variants={appstore_btn} initial="rest" animate="rest" whileHover="hover" id="Component_22_1" data-name="Component 22 – 1" transform="translate(1580, 820)">
                         <g id="Group_1721" data-name="Group 1721">
                             <g id="Group_1139" data-name="Group 1139">
                             <path id="Path_2088" data-name="Path 2088" d="M3411.491,3253.147c47.284-.9,244.269-1.444,287.022.14a5.447,5.447,0,0,0,2.981-.378c.715-.5.657-1.434.672-2.16.05-2.391.24-5.134.109-7.043l-9.458-.625,9.306-1.634q-1.3-19.581-1.786-39.386l-5.046-1.3,4.99-1.234c-.394-18.779,1.453-6.262,2.349-24.99a63.41,63.41,0,0,0-8.817-12.308,3.432,3.432,0,0,0-2.811-1.168c-18.891,1.257-266.313,2.637-300.376,1.377-1.849-.069-3.332,1.145-3.376,2.517-.179,5.512.635,9.093.89,14.343l3.665,1.718-1.649,1.607.3,1.238-2.066,1.073c.786,19.546.7,8.959-.242,28.353l2.764,1.069-1.383,1.882,3.91,1.471-5.58,1.054c-.444,7.764-2.052,15.6-2.128,23.159,5.644,4.4,16.925,9.07,25.76,11.228Z" transform="translate(-3383.588 -3161.051)" fillRule="evenodd" fill="url(#radial-gradient)" style={{mixBlendMode: "multiply",isolation:"isolate"}}/>
@@ -369,8 +436,59 @@ export const Landing = () => {
                             </g>
                             </g>
                         </g>
-                        <text id="DOWNLOAD_PRE-ALPHA" data-name="DOWNLOAD PRE-ALPHA" transform="translate(304.067 54.138)" fill="#572b0c" fontSize="29" fontFamily="CatatanPerjalanan, Catatan Perjalanan"><tspan x="-219.53" y="0">DOWNLOAD PRE-ALPHA</tspan></text>
-                        <path id="Icon_awesome-gamepad" data-name="Icon awesome-gamepad" d="M39.016,6.75H13.005a13.005,13.005,0,1,0,9.283,22.109h7.437A13,13,0,1,0,39.016,6.75ZM20.809,21.381a.978.978,0,0,1-.975.975H15.607v4.227a.978.978,0,0,1-.975.975H11.38a.978.978,0,0,1-.975-.975V22.357H6.178a.978.978,0,0,1-.975-.975V18.13a.978.978,0,0,1,.975-.975H10.4V12.928a.978.978,0,0,1,.975-.975h3.251a.978.978,0,0,1,.975.975v4.227h4.227a.978.978,0,0,1,.975.975Zm14.956,5.527a3.9,3.9,0,1,1,3.9-3.9A3.9,3.9,0,0,1,35.765,26.908Zm6.5-6.5a3.9,3.9,0,1,1,3.9-3.9A3.9,3.9,0,0,1,42.268,20.406Z" transform="translate(24.694 26.377)" fill="#572b0c"/>
+                        <text id="DOWNLOAD-APP-STORE-1" data-name="DOWNLOAD-APP-STORE-1" transform="translate(320.067 39.138)" fill="#572b0c" fontSize="29" fontFamily="CatatanPerjalanan, Catatan Perjalanan"><tspan x="-219.53" y="0">DOWNLOAD ON THE</tspan></text>
+                        <text id="DOWNLOAD-APP-STORE-2" data-name="DOWNLOAD-APP-STORE-2" transform="translate(320.067 67.138)" fill="#572b0c" fontSize="29" fontFamily="CatatanPerjalanan, Catatan Perjalanan"><tspan x="-219.53" y="0">APP STORE</tspan></text>
+                        <g fill="#572b0c"
+                          transform="scale(0.08) translate(500 300)">
+                          <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+                          <g
+                            id="SVGRepo_tracerCarrier"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          ></g>
+                          <g id="SVGRepo_iconCarrier" transform="translate(0 0)">
+                            <path d="M380.844 297.529c.787 84.752 74.349 112.955 75.164 113.314-.622 1.988-11.754 40.191-38.756 79.652-23.343 34.117-47.568 68.107-85.731 68.811-37.499.691-49.557-22.236-92.429-22.236-42.859 0-56.256 21.533-91.753 22.928-36.837 1.395-64.889-36.891-88.424-70.883-48.093-69.53-84.846-196.475-35.496-282.165 24.516-42.554 68.328-69.501 115.882-70.192 36.173-.69 70.315 24.336 92.429 24.336 22.1 0 63.59-30.096 107.208-25.676 18.26.76 69.517 7.376 102.429 55.552-2.652 1.644-61.159 35.704-60.523 106.559M310.369 89.418C329.926 65.745 343.089 32.79 339.498 0 311.308 1.133 277.22 18.785 257 42.445c-18.121 20.952-33.991 54.487-29.709 86.628 31.421 2.431 63.52-15.967 83.078-39.655"></path>
+                          </g>
+                        </g>
+                    </motion.g>
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.Nomina.SlimeHaven&pcampaignid=web_share" target="_blank" rel="noreferrer" id="btn-playstore-dekstop">
+                    <motion.g style={{cursor: "pointer"}} variants={playstore_btn} initial="rest" animate="rest" whileHover="hover" id="Component_22_1" data-name="Component 22 – 1" transform="translate(1520, 940)">
+                    <g id="Group_1722" data-name="Group 1722">
+                        <g id="Group_1139" data-name="Group 1139" transform="translate(0 0)">
+                        <path id="Path_2088" data-name="Path 2088" d="M3408.075,3253.147c41.013-.9,211.874-1.444,248.957.14a4.156,4.156,0,0,0,2.585-.378c.62-.5.57-1.434.583-2.16.043-2.391.208-5.134.094-7.043l-8.2-.625,8.072-1.634q-1.128-19.581-1.549-39.386l-4.377-1.3,4.328-1.234c-.342-18.779,1.26-6.262,2.037-24.99a64.061,64.061,0,0,0-7.648-12.308,2.806,2.806,0,0,0-2.438-1.168c-16.386,1.257-230.994,2.637-260.54,1.377a2.744,2.744,0,0,0-2.928,2.517c-.156,5.512.551,9.093.772,14.343l3.179,1.718-1.43,1.607.261,1.238-1.792,1.073c.682,19.546.609,8.959-.21,28.353l2.4,1.069-1.2,1.882,3.391,1.471-4.84,1.054c-.385,7.764-1.78,15.6-1.845,23.159,4.9,4.4,14.68,9.07,22.344,11.228Z" transform="translate(-3383.588 -3161.051)" fillRule="evenodd" fill="url(#radial-gradient)" style={{isolation:"isolate",mixBlendMode:"multiply"}} />
+                        <g id="Group_1138" data-name="Group 1138" transform="translate(0 1.494)">
+                            <path id="Path_2089" data-name="Path 2089" d="M3402.458,3254.7c6.1,1.258,231.533.633,255-.751q-.275-3.841-.522-7.694l-8.4-.6,8.267-1.559q-1.154-18.675-1.587-37.563l-4.483-1.241,4.433-1.177c-.349-17.909-.168-5.821.627-23.682l-10.679-12.774c-1.468-.535-242.347.483-266.392,1.249q.615,8.663,1,17.306l3.256,1.638-1.465,1.532.268,1.181-1.835,1.023c.7,18.642.624,7.153-.215,25.649l2.455,1.019-1.228,1.8,3.473,1.4-4.958,1q-.611,11.509-1.617,22.98v.014l24.6,9.242Z" transform="translate(-3377.846 -3167.514)" fillRule="evenodd" fill="url(#linear-gradient)"/>
+                            <path id="Path_2090" data-name="Path 2090" d="M3402.412,3492.981l-24.6-9.241c.766-1.006,8.433-6.187,9.481-6.279,1.01-.089,12.569,13.617,15.118,15.52Z" transform="translate(-3377.813 -3405.8)" fillRule="evenodd" fill="url(#radial-gradient-2)" style={{isolation:"isolate",mixBlendMode:"multiply"}}/>
+                            <path id="Path_2091" data-name="Path 2091" d="M4368.639,3180.934c-2.457-1-12.947-2.461-13.432-3.377-.382-.721,2.193-6.866,2.753-9.4l10.679,12.775Z" transform="translate(-4090.695 -3168.01)" fillRule="evenodd" fill="url(#radial-gradient-3)" style={{isolation:"isolate",mixBlendMode:"multiply"}}/>
+                            <path id="Path_2092" data-name="Path 2092" d="M3385.831,3486.84a194.4,194.4,0,0,0,16.594,13.357c-1.812,0-24.612-7.719-24.612-9.246a47.442,47.442,0,0,1,8.018-4.111Z" transform="translate(-3377.813 -3413.01)" fillRule="evenodd" fill="url(#linear-gradient-2)"/>
+                            <path id="Path_2093" data-name="Path 2093" d="M4371.292,3180.934c-4.209-1.615-8.438-3.2-12.486-5.087a65.149,65.149,0,0,0,1.807-7.688c1.04,0,10.68,11.821,10.68,12.775Z" transform="translate(-4093.348 -3168.01)" fillRule="evenodd" fill="url(#linear-gradient-3)"/>
+                            <path id="Path_2094" data-name="Path 2094" d="M3406.226,3498.268c-1.415-4.374-12.439-9.719-16.167-9.25a45,45,0,0,1,4.7-2.178,194.828,194.828,0,0,0,16.552,13.329l.042.029a33.8,33.8,0,0,1-5-1.353,3.1,3.1,0,0,0-.129-.575Z" transform="translate(-3386.745 -3413.01)" fillRule="evenodd" fill="url(#radial-gradient-4)" style={{isolation:"isolate",mixBlendMode:"screen"}}/>
+                            <path id="Path_2095" data-name="Path 2095" d="M4360.472,3174.986c1.235,2.439,6.635,4.166,9.909,4.858.126.027.25.052.37.076a3.22,3.22,0,0,1,.541,1.014c-.1-.041-.215-.085-.342-.131-4.1-1.57-8.206-3.117-12.145-4.956a64.956,64.956,0,0,0,1.807-7.688.612.612,0,0,1,.285.129c-.02.047-.039.094-.058.143-.673,1.737-1.209,4.9-.368,6.555Z" transform="translate(-4093.348 -3168.01)" fillRule="evenodd" fill="url(#radial-gradient-5)" style={{isolation:"isolate",mixBlendMode:"screen"}}/>
+                            <path id="Path_2096" data-name="Path 2096" d="M3415.944,3262.149c-2.914-.995-3.987-3.1-5.553-6.319-4.481-9.216-10.335-7.56-15.028-10.076-3.131-1.678-4.114-6.746,1.677-13.559,5.347-6.292-4.361-13.244-4.019-26.411.219-8.427,5.506,8.312,6.372,4.387.8-3.629,1.8-5.561-2.224-10.728-1.554-2,.193-2.922-3.613-7.98-1.993-2.65-1.361-4.527.593-5.891,11.526-8.043,40.946-2.914,53.95-1.861,5.925.479,10.209-2.751,19.972-1.95,17.455,1.432,14.759-5.871,39.86,2.942,16.389,5.755,96.062-3.668,109.974-2.667,6.988.5,9.349-.812,13.8-1.252,3.435-.34,7.029-.822,10-.061,6.155,1.575,3.249,6.795,8.556,9.993,7.631,4.6,15.939-1.821,12.158,11.575-1.9,6.732-4.137,14.56-.555,22.9,1.033,2.406,1.016-21.578-.15-19.356-4.656,8.872-8.959,7.494-2.779,12.562,5.04,4.134-2.055,7.53,1.578,12.16,3.516,4.48,1.846,8.834-2.055,17.99-.529,1.244,2.1,2.768-2.8,5.206-3.412,1.7,8.681,6.582-18.644,6.582-7.757,0-10.143,2.346-17.976,2.146-13.5-.346-98.23-3.608-114.937-2.341-10.907.828-16.352,2.182-28.008,1.756-6.922-.253-8.353,1.633-17.788-.73-14.324-3.588-29.39,5.416-42.369.986Z" transform="translate(-3388.407 -3177.321)" fillRule="evenodd" opacity="0.5" fill="url(#radial-gradient-6)" style={{isolation:"isolate",mixBlendMode:"screen"}} />
+                            <path id="Path_2097" data-name="Path 2097" d="M3413.509,3254.6c-3.76-2.895-5.562-5.1-2.975-13.159,3.847-11.975-3.69-15-4.516-22.457-1.06-9.562-.184,25.173,3.847,18.423,2.488-4.168-4.163-5.468,3.564-13.3,5.748-5.825,4.358-10.567-.88-15.9-4.24-4.317-4.731-10.236-.184-13.1,7.1-4.473,15.216.581,20.784.871,1.674.088,3.814-.253,7.333-1.417,4.011-1.326,14.123,3.584,22.038,3.584,9.681,0,19.985-4.711,33.985-4.711,14.6,0,18.673,10.575,31.267,6.135,1.4-.494,87.178,4.49,99.848-1.178,10.089-4.513,23.891-2.543,26.731,1.969.774,1.23,6.1.182,7.045,7.208.412,3.062,9.312,5.023,4.044,13.282-.966,1.515-1.636,10.259.092,12.877,1.979,3,1.971-20.34-.092-17.739-5.84,7.364,2.506,13.409-1.786,18.762-4.347,5.42-.63,9.74-.63,13.876,0,8.7-3.614,3.42-1.588,11.908,1.766,7.4-5.386,8.419-12.919,6.932-2.215-.437-4.1-.869-8.81,2.062-7.076,4.408-17.367,1.589-25.471-.5-11.259-2.905-95.57-2.757-107.314.2-7.973,2.01-21.069-5.032-34.291-1.006-11.545,3.516-16.622-4.126-25,.556-6.427,3.589-12.64,2.692-15.453.263-3.589-3.1.6.781-4.957-5.743-5.36-6.3-11.8-7.229-13.706-8.7Z" transform="translate(-3398.085 -3187.315)" fillRule="evenodd" opacity="0.5" fill="url(#radial-gradient-7)" style={{isolation:"isolate",mixBlendMode:"screen"}}/>
+                        </g>
+                        </g>
+                    </g>
+                        <text id="DOWNLOAD_PRE-ALPHA" data-name="DOWNLOAD PRE-ALPHA" transform="translate(320.067 39.138)" fill="#572b0c" fontSize="29" fontFamily="CatatanPerjalanan, Catatan Perjalanan"><tspan x="-219.53" y="0">GET IT ON</tspan></text>
+                        <text id="DOWNLOAD_PRE-ALPHA" data-name="DOWNLOAD PRE-ALPHA" transform="translate(320.067 67.138)" fill="#572b0c" fontSize="29" fontFamily="CatatanPerjalanan, Catatan Perjalanan"><tspan x="-219.53" y="0">PLAY STORE</tspan></text>
+                        <g fill="#572b0c" transform="scale(0.08) translate(500 300)">
+                          <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+                          <g
+                            id="SVGRepo_tracerCarrier"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            stroke="#CCCCCC"
+                            strokeWidth="13.312000000000001"
+                          ></g>
+                          <g id="SVGRepo_iconCarrier">
+                            <title>ionicons-v5_logos</title>
+                            <path d="M48,59.49v393a4.33,4.33,0,0,0,7.37,3.07L260,256,55.37,56.42A4.33,4.33,0,0,0,48,59.49Z"></path>
+                            <path d="M345.8,174,89.22,32.64l-.16-.09c-4.42-2.4-8.62,3.58-5,7.06L285.19,231.93Z"></path>
+                            <path d="M84.08,472.39c-3.64,3.48.56,9.46,5,7.06l.16-.09L345.8,338l-60.61-57.95Z"></path>
+                            <path d="M449.38,231l-71.65-39.46L310.36,256l67.37,64.43L449.38,281C468.87,270.23,468.87,241.77,449.38,231Z"></path>
+                          </g>
+                        </g>
                     </motion.g>
                 </a>
               </g>
