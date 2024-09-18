@@ -137,7 +137,7 @@ export const Navbar = () => {
                                     </g>
                                 </motion.g>
                             </a>
-                            <a href="https://discord.gg/creoengine" target="_blank" rel="noreferrer">
+                            <a href="https://discord.gg/slimehaven" target="_blank" rel="noreferrer">
                                 <motion.g variants={discord_btn} initial="rest" animate="rest" whileHover="play" id="Component_3_1" data-name="Component 3 – 1" transform="translate(1516.717 30.359)">
                                     <g id="Group_8" data-name="Group 8" transform="matrix(0.966, -0.259, 0.259, 0.966, -1486.116, 376.463)">
                                         <g transform="matrix(0.97, 0.26, -0.26, 0.97, 1457.97, -30.51)" filter="url(#Rectangle_4)">
