@@ -209,7 +209,7 @@ export const Landing = () => {
                     <radialGradient id="radial-gradient-7" cy="0.5" r="1.065" gradientTransform="translate(0.324) scale(0.352 1)" xlinkHref="#radial-gradient-6"/>
                 </defs>
                 <g id="group_slime_landing" data-name="group_slime_landing" transform="translate(-350 -191)">
-                    <g id="Component_23_1" data-name="Component 23 – 1" transform="translate(350 191)">
+                    <g id="Component_23_1" data-name="Component 23 – 1" transform="translate(372 204) scale(0.93)">
                         <rect id="cloud_v3" data-name="cloud v3" width="188.125" height="205.136" transform="translate(750.792 91.65)" fill="url(#pattern-cloud-mobile)"/>
                         <g id="Component_20_1" data-name="Component 20 – 1">
                         <g id="EXPLODES" transform="translate(275.762 141.222)" opacity="0.739">
@@ -230,7 +230,7 @@ export const Landing = () => {
                     </g>
                     </g>
                     <a href="https://drive.google.com/file/d/1J1C6zQBBTxldjzYfRySGRXcfpmLh_mQz/view?usp=sharing" target="_blank" rel="noreferrer" id="btn-whitepaper-mobile">
-                        <g id="Component_21_1" data-name="Component 21 – 1" transform="translate(415.194 1051.693)">
+                        <g id="Component_21_1" data-name="Component 21 – 1" transform="translate(395 1051.693)">
                             <g id="Group_1720" data-name="Group 1720">
                                 <g id="Group_1139" data-name="Group 1139" transform="translate(0 0)">
                                 <path id="Path_2088" data-name="Path 2088" d="M3408.075,3253.147c41.013-.9,211.874-1.444,248.957.14a4.156,4.156,0,0,0,2.585-.378c.62-.5.57-1.434.583-2.16.043-2.391.208-5.134.094-7.043l-8.2-.625,8.072-1.634q-1.128-19.581-1.549-39.386l-4.377-1.3,4.328-1.234c-.342-18.779,1.26-6.262,2.037-24.99a64.061,64.061,0,0,0-7.648-12.308,2.806,2.806,0,0,0-2.438-1.168c-16.386,1.257-230.994,2.637-260.54,1.377a2.744,2.744,0,0,0-2.928,2.517c-.156,5.512.551,9.093.772,14.343l3.179,1.718-1.43,1.607.261,1.238-1.792,1.073c.682,19.546.609,8.959-.21,28.353l2.4,1.069-1.2,1.882,3.391,1.471-4.84,1.054c-.385,7.764-1.78,15.6-1.845,23.159,4.9,4.4,14.68,9.07,22.344,11.228Z" transform="translate(-3383.588 -3161.051)" fillRule="evenodd" fill="url(#radial-gradient)" style={{isolation:"isolate",mixBlendMode:"multiply"}}/>
@@ -253,7 +253,7 @@ export const Landing = () => {
                     </a>
 
                     <a href="https://play.google.com/store/apps/details?id=com.Nomina.SlimeHaven&pcampaignid=web_share" className="btn-playstore" target="_blank" rel="noreferrer" id="btn-playstore-mobile">
-                        <g id="Component_22_1" data-name="Component 212 – 1" transform="translate(795.194 1051.693)">
+                        <g id="Component_22_1" data-name="Component 212 – 1" transform="translate(770 1051.693)">
                             <g id="Group_1720" data-name="Group 1720">
                                 <g id="Group_1139" data-name="Group 1139" transform="translate(0 0)">
                                 <path id="Path_2088" data-name="Path 2088" d="M3408.075,3253.147c41.013-.9,211.874-1.444,248.957.14a4.156,4.156,0,0,0,2.585-.378c.62-.5.57-1.434.583-2.16.043-2.391.208-5.134.094-7.043l-8.2-.625,8.072-1.634q-1.128-19.581-1.549-39.386l-4.377-1.3,4.328-1.234c-.342-18.779,1.26-6.262,2.037-24.99a64.061,64.061,0,0,0-7.648-12.308,2.806,2.806,0,0,0-2.438-1.168c-16.386,1.257-230.994,2.637-260.54,1.377a2.744,2.744,0,0,0-2.928,2.517c-.156,5.512.551,9.093.772,14.343l3.179,1.718-1.43,1.607.261,1.238-1.792,1.073c.682,19.546.609,8.959-.21,28.353l2.4,1.069-1.2,1.882,3.391,1.471-4.84,1.054c-.385,7.764-1.78,15.6-1.845,23.159,4.9,4.4,14.68,9.07,22.344,11.228Z" transform="translate(-3383.588 -3161.051)" fillRule="evenodd" fill="url(#radial-gradient)" style={{isolation:"isolate",mixBlendMode:"multiply"}}/>
@@ -293,7 +293,7 @@ export const Landing = () => {
                     </a>
                     
                     <a href="https://apps.apple.com/us/app/slime-haven/id6535673156" className="btn-appstore" target="_blank" rel="noreferrer" id="btn-appstore-mobile">
-                        <g id="Component_23_1" data-name="Component 23 – 1" transform="translate(1155.194 1051.693)">
+                        <g id="Component_23_1" data-name="Component 23 – 1" transform="translate(1138 1051.693)">
                             <g id="Group_1721" data-name="Group 1721">
                                 <g id="Group_1139" data-name="Group 1139">
                                 <path id="Path_2088" data-name="Path 2088" d="M3411.491,3253.147c47.284-.9,244.269-1.444,287.022.14a5.447,5.447,0,0,0,2.981-.378c.715-.5.657-1.434.672-2.16.05-2.391.24-5.134.109-7.043l-9.458-.625,9.306-1.634q-1.3-19.581-1.786-39.386l-5.046-1.3,4.99-1.234c-.394-18.779,1.453-6.262,2.349-24.99a63.41,63.41,0,0,0-8.817-12.308,3.432,3.432,0,0,0-2.811-1.168c-18.891,1.257-266.313,2.637-300.376,1.377-1.849-.069-3.332,1.145-3.376,2.517-.179,5.512.635,9.093.89,14.343l3.665,1.718-1.649,1.607.3,1.238-2.066,1.073c.786,19.546.7,8.959-.242,28.353l2.764,1.069-1.383,1.882,3.91,1.471-5.58,1.054c-.444,7.764-2.052,15.6-2.128,23.159,5.644,4.4,16.925,9.07,25.76,11.228Z" transform="translate(-3383.588 -3161.051)" fillRule="evenodd" fill="url(#radial-gradient)" style={{mixBlendMode: "multiply",isolation:"isolate"}}/>
