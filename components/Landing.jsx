@@ -252,7 +252,7 @@ export const Landing = () => {
                         </g>
                     </a>
 
-                    <a href="https://play.google.com/store/apps/details?id=com.Nomina.SlimeHaven&pcampaignid=web_share" target="_blank" rel="noreferrer" id="btn-playstore-mobile">
+                    <a href="https://play.google.com/store/apps/details?id=com.Nomina.SlimeHaven&pcampaignid=web_share" className="btn-playstore" target="_blank" rel="noreferrer" id="btn-playstore-mobile">
                         <g id="Component_22_1" data-name="Component 212 – 1" transform="translate(795.194 1051.693)">
                             <g id="Group_1720" data-name="Group 1720">
                                 <g id="Group_1139" data-name="Group 1139" transform="translate(0 0)">
@@ -292,7 +292,7 @@ export const Landing = () => {
                         </g>
                     </a>
                     
-                    <a href="https://apps.apple.com/us/app/slime-haven/id6535673156 " target="_blank" rel="noreferrer" id="btn-appstore-mobile">
+                    <a href="https://apps.apple.com/us/app/slime-haven/id6535673156" className="btn-appstore" target="_blank" rel="noreferrer" id="btn-appstore-mobile">
                         <g id="Component_23_1" data-name="Component 23 – 1" transform="translate(1155.194 1051.693)">
                             <g id="Group_1721" data-name="Group 1721">
                                 <g id="Group_1139" data-name="Group 1139">
@@ -418,7 +418,7 @@ export const Landing = () => {
                     <text id="WHITE_PAPER" data-name="WHITE PAPER" transform="translate(231.441 52.293)" fill="#572b0c" fontSize="29" fontFamily="CatatanPerjalanan, Catatan Perjalanan"><tspan x="-128.151" y="0">WHITE PAPER</tspan></text>
                     </motion.g>
                 </a>
-                <a href="https://apps.apple.com/us/app/slime-haven/id6535673156" target="_blank" rel="noreferrer" id="btn-appstore-dekstop">
+                <a href="https://apps.apple.com/us/app/slime-haven/id6535673156" className="btn-appstore" target="_blank" rel="noreferrer" id="btn-appstore-dekstop">
                     <motion.g style={{cursor: "pointer"}} variants={appstore_btn} initial="rest" animate="rest" whileHover="hover" id="Component_22_1" data-name="Component 22 – 1" transform="translate(1580, 820)">
                         <g id="Group_1721" data-name="Group 1721">
                             <g id="Group_1139" data-name="Group 1139">
@@ -452,7 +452,7 @@ export const Landing = () => {
                         </g>
                     </motion.g>
                 </a>
-                <a href="https://play.google.com/store/apps/details?id=com.Nomina.SlimeHaven&pcampaignid=web_share" target="_blank" rel="noreferrer" id="btn-playstore-dekstop">
+                <a href="https://play.google.com/store/apps/details?id=com.Nomina.SlimeHaven&pcampaignid=web_share" className="btn-playstore" target="_blank" rel="noreferrer" id="btn-playstore-dekstop">
                     <motion.g style={{cursor: "pointer"}} variants={playstore_btn} initial="rest" animate="rest" whileHover="hover" id="Component_22_1" data-name="Component 22 – 1" transform="translate(1520, 940)">
                     <g id="Group_1722" data-name="Group 1722">
                         <g id="Group_1139" data-name="Group 1139" transform="translate(0 0)">
