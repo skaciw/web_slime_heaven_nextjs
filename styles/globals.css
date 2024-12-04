@@ -248,6 +248,10 @@ body{
 }
 
 .glowing-png {
+  width: 100%;
+  max-width: 430px;
+  aspect-ratio: 1/1;
+  object-fit: contain;
   -webkit-animation: glowing 1.5s ease-in-out infinite alternate;
   -moz-animation: glowing 1.5s ease-in-out infinite alternate;
   animation: glowing 1.5s ease-in-out infinite alternate;
