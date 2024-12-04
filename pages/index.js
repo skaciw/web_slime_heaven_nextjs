@@ -110,7 +110,7 @@ export default function Home() {
 
               <div className='grid justify-items-end items-center'>
                 
-                <img className='glowing-png' src='/assets/images/LOCA.png' alt=''/>
+                <img className='glowing-png' src='/assets/images/LOCA.png' alt='logo loca'/>
                 
                 
                 <div className='text-right'>
@@ -124,11 +124,11 @@ export default function Home() {
               </div>
 
               <div className='grid items-end justify-center'>
-                <img src='/assets/images/line.png' alt=''/>
+                <img src='/assets/images/line.png' alt='line'/>
               </div>
 
               <div className=''>
-                <img className='glowing-png' src='/assets/images/CREO_1.png' alt=''/>
+                <img className='glowing-png' src='/assets/images/CREO-new.png' alt='logo creo'/>
                 <div className='text-left'>
                   <h1 className='title-text color-title font-cp '>Creo Engine (CREO)</h1>
                   <span className='desc-text flex justify-center items-center flex-col'>
@@ -200,9 +200,9 @@ export default function Home() {
 
         {/* partner */}
         <div className='grid grid-cols-3 sm:grid-cols-3 justify-items-center'>
-          <img src='/assets/images/nomina.png' alt=""/>
-          <img src='/assets/images/muse.png' alt=""/>
-          <img src='/assets/images/creo.png' alt=""/>
+          <img className='max-w-[280px] w-full h-[116px] object-contain' src='/assets/images/nomina.png' alt="logo nomina"/>
+          <img className='max-w-[280px] w-full h-[116px] object-contain' src='/assets/images/muse.png' alt="logo muse"/>
+          <img className='max-w-[280px] w-full h-[116px] object-contain' src='/assets/images/creo-engine.png' alt="logo creo engine"/>
           {/* <img src='/assets/images/polygon.png' alt=""/> */}
         </div>
       </main>
